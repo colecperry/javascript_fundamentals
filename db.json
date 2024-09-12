@@ -1,0 +1,32 @@
+{
+    "user": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "age": 30,
+        "email": "johndoe@example.com",
+        "isVerified": true,
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "postalCode": "90210"
+        },
+        "favoriteBooks": [
+            {
+                "title": "1984",
+                "author": "George Orwell",
+                "yearPublished": 1949
+            },
+            {
+                "title": "To Kill a Mockingbird",
+                "author": "Harper Lee",
+                "yearPublished": 1960
+            },
+            {
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "yearPublished": 1925
+            }
+        ]
+    }
+}

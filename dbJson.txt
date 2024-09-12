@@ -1,0 +1,24 @@
+/*
+    JSON (JavaScript Object Notation) is a lightweight data-interchange format.
+    It is easy for humans to read and write, and easy for machines to parse and generate.
+    JSON is often used to transmit data between a server and a web application, as it is 
+    both human-readable and language-independent.
+
+    JSON is built on two structures:
+    1. A collection of name/value pairs (often realized as an object, record, struct, dictionary, hash table, keyed list, or associative array).
+    2. An ordered list of values (often realized as an array, vector, list, or sequence).
+
+    The following is an example of a JSON object that contains information about a user, 
+    including their personal details and a list of their favorite books.
+
+    // Create a json server (create server for front end to send requests to) without creating backend server: https://www.npmjs.com/package/json-server
+*/
+
+// Run the json server in the terminal:
+json-server --watch db.json
+
+// It should give you something like this: 
+http://localhost:3000/user
+
+// Open up postman and send a GET request -> you should see the json file
+// Patch and delete need an id number
